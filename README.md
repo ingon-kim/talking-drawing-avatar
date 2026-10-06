@@ -104,7 +104,7 @@ RTX 4070 Ti, 4.7초 발화 기준. 영상 경로가 처음엔 말하기부터 �
 ## 설치·실행
 
 ```bash
-git clone https://github.com/ingon1026/talking-drawing-avatar && cd talking-drawing-avatar
+git clone https://github.com/ingon-kim/talking-drawing-avatar && cd talking-drawing-avatar
 uv venv --python 3.10 .venv
 uv pip install --python .venv/bin/python fastapi 'uvicorn[standard]' edge-tts pillow librosa scipy \
     torch==2.2.2 --index-url https://download.pytorch.org/whl/cu121
